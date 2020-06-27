@@ -40,32 +40,36 @@
     </form>
     <table>
 <tr>
-    <td><input class="btn1 , clr " type="button" value="CLR"onclick="clean()" ></td>
-    <td><input class="btn , clr" type="button" value="&#xf7;" onclick="insert('/')"></td>
-    <td><input class="btn , clr" type="button" value="&#xd7;"onclick="insert('*')"></td>
+    <td colspan="2"><input class="btn1 , clr " type="button" value="CLR"onclick="clean()" ></td>
     <td><input class="btn , clr" type="button" value="&#8676;" onclick="back()"></td>
+    <td><input class="btn , clr" type="button" value="&times;"onclick="insert('*')"></td>
+    
 </tr>
 <tr>
     <td><input class="btn" type="button" value="7"onclick="insert(7)"></td>
     <td><input class="btn" type="button" value="8"onclick="insert(8)"></td>
     <td><input class="btn" type="button" value="9"onclick="insert(9)"></td>
-    <td><input class="btn , clr" type="button" value="&#8331;"onclick="insert('-')"></td>
+    <td><input class="btn , clr" type="button" value="&divide;" onclick="insert('/')"></td>
+  
 </tr>
 <tr>
     <td><input class="btn" type="button" value="4"onclick="insert(4)"></td>
     <td><input class="btn" type="button" value="5"onclick="insert(5)"></td>
     <td><input class="btn" type="button" value="6"onclick="insert(6)"></td>
-    <td><input class="btn , clr" type="button" value="&#8330;"onclick="insert('+')"></td>
+    <td><input class="btn , clr" type="button" value="&minus;"onclick="insert('-')"></td>
+   
 </tr>
 <tr>
     <td><input class="btn" type="button" value="1"onclick="insert(1)"></td>
     <td><input class="btn" type="button" value="2"onclick="insert(2)"></td>
     <td><input class="btn" type="button" value="3" onclick="insert(3)"></td>
-    <td rowspan="2"><input class="btn3 , clrfull" type="button" value="&#8332;" onclick="equal()"></td>
+    <td rowspan="2"><input class="btn3 , clrfull" type="button" value="&plus;"onclick="insert('+')"></td>
+    
 </tr>
 <tr>
-    <td colspan="2"><input  class="btn2" type="button" value="0"onclick="insert(0)"></td>
-    <td><input class="btn" type="button" value="."onclick="insert('.')"></td>
+    <td ><input  class="btn2" type="button" value="0"onclick="insert(0)"></td>
+    <td><input class="btn" type="button" value="&#8729;"onclick="insert('.')"></td>
+    <td ><input class="btn , clr , eql " type="button" value="&#61;" onclick="equal()"></td>
     
 </tr>
 
